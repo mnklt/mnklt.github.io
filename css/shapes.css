@@ -1,0 +1,23 @@
+.shape {
+    width:10vw;
+    position: absolute;
+
+}
+
+.shape-stripes {
+    left:70%;
+    top:47rem;
+    width:15vw;
+}
+
+.shape-wave {
+    
+    left:20%;
+    top:15rem;
+}
+
+.shape-line {
+    
+    left:20%;
+    top:52.5rem;
+}

@@ -1,2 +1,2 @@
-# minkult
-Site for Literature Magazine
+# Minkult_2_0
+Literature Magazine
