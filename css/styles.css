@@ -497,7 +497,18 @@ input[type="submit"] {
     cursor:pointer;
     border-radius:5px;
     text-align:center;
-    box-shadow:5px 5px 5px rgba(255,99,71,0.25)
+    box-shadow:5px 5px 5px rgba(255,99,71,0.25);
+    
+}
+
+.support-block-sublock:hover {
+    animation: bounce 1s;
+}
+
+.support-block-sublock p {
+    font-size:1.414rem;
+    font-weight:800;
+    padding:1rem;
 }
 
 .support-block-sublock:last-child, .support-block hgroup {
@@ -558,3 +569,5 @@ input[type="submit"] {
     transition:1s;
     animation:shake 1s;
 }
+
+/* the end*/
