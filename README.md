@@ -1,2 +1,2 @@
-# Minkult_2_0
-Literature Magazine
+# Minkultec
+Literature Magazine: Wow materialize
