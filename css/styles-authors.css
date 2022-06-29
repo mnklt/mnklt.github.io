@@ -174,8 +174,8 @@
 }
 
 .support-block-sublock {
-    -ms-grid-column-span:4;
-    grid-column:span 4;
+    -ms-grid-column-span:12;
+    grid-column:span 12;
     padding:0.5rem 1rem;
     min-height:12.5rem;
     cursor:pointer;
