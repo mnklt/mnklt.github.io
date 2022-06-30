@@ -42,6 +42,10 @@ p {
   h1 {
       font-size: calc(2rem + 4vw);
   }
+
+  .thing {
+    color:#ff3366;
+  }
   
   h2 {
       font-size: calc(2rem + 1.5vw);
@@ -169,7 +173,7 @@ p {
   .menu-index {
       -ms-grid-column-span:4;
       grid-column:span 4;
-      background-color:hsl(203, 78%, 43%);
+      background-color:#33cc99;
       justify-items:center; 
   }
   
@@ -209,12 +213,14 @@ p {
     top: 0;
     left: 0;
     
-    background-color: hsla(203, 78%, 43%, 0.95);
+    background-color: hsla(160, 60%, 50%, 0.95);
     overflow-x: hidden;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
 }
+
+
 
 .overlay-content {
     grid-gap:1rem;
@@ -308,6 +314,7 @@ p {
 .authors img {
     width:100%;
     display: inherit;
+
 }
 
 .authors {
@@ -322,6 +329,7 @@ p {
     -ms-grid-row-span:2;
     grid-row:span 2;
     position:relative;
+
 }
 
 .authors-block h2::before {
@@ -667,10 +675,13 @@ img {
     width:100%;
 }
 
+
+
 .authors img, .team img, .read img {
     -webkit-filter:grayscale(100%) contrast(1);
     filter: grayscale(100%) contrast(1);
 }
+
 
 
 .green img {
@@ -871,8 +882,11 @@ form label {
 
 /*DECORATION */
 
-/*
 
+
+
+
+/*
 
  .column::after{
     content: '';
@@ -882,6 +896,23 @@ form label {
     width: 100%;
     height: 100%;
   }
+
+  .lense-purple::after{
+    mix-blend-mode: hard-light;
+    background: -webkit-gradient(linear, right bottom, left top, from(#75d775), to(#321a5b));
+    background: -webkit-linear-gradient(bottom right, #75d775, #321a5b);
+    background: -o-linear-gradient(bottom right, #75d775, #321a5b);
+    background: linear-gradient(to top left, #75d775, #321a5b);
+ }
+
+  .lense-munsel::after{
+    mix-blend-mode: multiply;
+    background: -webkit-gradient(linear, right bottom, left top, from(hsl(50, 100%, 50%)), to(hsl(345, 91%, 48%)));
+    background: -webkit-linear-gradient(bottom right, hsl(50, 100%, 50%), hsl(345, 91%, 48%));
+    background: -o-linear-gradient(bottom right, hsl(50, 100%, 50%), hsl(345, 91%, 48%));
+    background: linear-gradient(to top left, hsl(50, 100%, 50%), hsl(345, 91%, 48%));
+ }
+
 
   
 
@@ -926,4 +957,6 @@ form label {
  }
 
 */
+
+
 
