@@ -98,10 +98,11 @@
     font-family:'Lora', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:1.25rem;
     color:hsla(0, 0%, 0%, 0.75);
-    line-height: 1.5;
+    line-height: 1.4;
     min-height: 90%;
     display: block;
     word-wrap: break-word;
+    letter-spacing: 1px;
     
 }
 

@@ -224,16 +224,16 @@ p {
 
 .overlay-content {
     grid-gap:1rem;
-    -ms-grid-columns: (1fr)[16];
-        grid-template-columns: repeat(16,1fr);
+    -ms-grid-columns: (1fr)[36];
+        grid-template-columns: repeat(36,1fr);
     width:80%;
     margin:0 auto;
     padding:1rem 0;
 }
 
 .title {
-    -ms-grid-column-span:16;
-    grid-column:span 16;
+    -ms-grid-column-span:36;
+    grid-column:span 36;
     margin:1rem 0;
 }
 
@@ -242,11 +242,11 @@ p {
 }
 
 .overlay-content-block {
-    height:12vw;
+    height:10vw;
     background-color:hsl(0, 0%, 95%);
     border:5px solid hsl(0, 0%, 25%);
-    -ms-grid-column-span:2;
-    grid-column:span 2;
+    -ms-grid-column-span:3;
+    grid-column:span 3;
     display:-ms-grid;
     display:grid;
     -webkit-box-align:center;
