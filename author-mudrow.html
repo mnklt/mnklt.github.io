@@ -32,14 +32,12 @@
          <section class="read">
             <div class="content read-content">
             <div class ="intro">
-               <h2>Вінцэсь Мудроў</h2>
+               <h2>Вінцэсь <br>Мудроў</h2>
                <figure>
                   <img src="img/mudrow.jpg" alt="VM" title="Вінцэсь Мудроў">
                </figure>
                <p class="bio">Беларускі празаік і журналіст. У 2-й палове 1970-1980-х актыўна займаўся капіраваннем і распаўсюджваннем забароненай у СССР літаратуры. Лаўрэат прэміі часопіса «Крыніца» (1998), Лаўрэат прэміі «Залаты апостраф» (2010), Трэцяе месца Прэміі Гедройца (2014) за зборнік апавяданняў «Багун».</p>
                <div class="divider"></div>
-               <div class="ya-share2" data-services="vkontakte,facebook,twitter,telegram"></div>
-               <div class="stripes"></div>
             </div>
             <div class="text">
                <h3>Халхінголка</h3>
@@ -213,18 +211,35 @@
          </div>
       </footer>
       <div class="subfooter">
-         <small><a href="http://www.pakrouski.info/" title="Make tea not war">Андрэй Пакроўскі</a> <i class="fas fa-crow"></i></small>
+         <small><a href="https://www.instagram.com/chkalava/" title="Make tea not war">Андрэй Пакроўскі</a> <i class="fas fa-crow"></i></small>
       </div>
-      <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-      <script type="text/javascript" src="js/materialize.js"></script>
-      <script>
-         $(document).ready(function(){
-           $('.collapsible.popout').collapsible();
-           $('.dropdown-trigger').dropdown({
-               constrainWidth:false
-           });
+      
+      <div class="fixed-action-btn">
+         <a class="btn-floating btn-large red center">
+             <img src="img/fist.svg">
+         </a>
+         <ul>
+           <li><a class="btn-floating" href="mailto:mimikriabel@gmail.com"><i class="far fa-envelope"></i></a></li>
+           <li><a class="btn-floating" href="https://www.facebook.com/minkulture/"><i class="fab fa-facebook-f"></i></a></li>
+         </ul>
+ </div>
+
+
+ <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+ <script type="text/javascript" src="js/materialize.js"></script>
+
+ <script>
+       $(document).ready(function(){
+         $('.collapsible.popout').collapsible();
+         $('.dropdown-trigger').dropdown({
+             constrainWidth:false
          });
-      </script>
-      <script src="js/dropdw.js"></script>
+         $('.fixed-action-btn').floatingActionButton({
+           direction: 'top'
+         });
+     });
+ </script>
+ 
+ <script src="js/dropdw.js"></script>
    </body>
 </html>
