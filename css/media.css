@@ -79,6 +79,10 @@
         grid-column:span 9;
         height:30vw;
     }
+
+    .intro img {
+            width:100%;
+    }
 }
 
 @media screen and (max-width: 600px) {

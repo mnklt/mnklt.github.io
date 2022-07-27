@@ -259,7 +259,7 @@ p {
     background-color:hsl(0, 0%, 95%);
     border:5px solid hsl(0, 0%, 25%);
     -ms-grid-column-span:3;
-    grid-column:span 3;
+    grid-column:span 4;
     display:-ms-grid;
     display:grid;
     -webkit-box-align:center;
