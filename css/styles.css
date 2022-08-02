@@ -235,9 +235,9 @@ p {
     grid-gap:1rem;
     -ms-grid-columns: (1fr)[36];
         grid-template-columns: repeat(36,1fr);
-    width:80%;
-    margin:0 auto;
-    padding:1rem 0;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
 }
 
 .title {
@@ -252,6 +252,15 @@ p {
 
 .overlay h2 {
     color: #ff3366;
+}
+
+.overlay h2 a {
+    color: #ff3366;
+    font-size: calc(2rem + 1.5vw);
+}
+
+.overlay h2 a:hover {
+    color: #409dd7;
 }
 
 .overlay-content-block {
