@@ -24,7 +24,6 @@
                                   <div id="myDropdown" class="dropdown-container">
                                         <a class ="waves-effect" href="index.html#author" title="know your author">Аўтары</a>
                                         <a class ="waves-effect" href="index.html#team">Рэдакцыя</a>
-                                        <a class ="waves-effect" href="support.html">Падтрымка</a>
                                   </div>
                                 </div>
                     </div>
@@ -34,7 +33,7 @@
         <section class="read">
             <div class="content read-content">
             <div class ="intro">
-                <h2>Віктар Марціновіч</h2>
+                <h2>Віктар <br>Марціновіч</h2>
                     <figure>
                         <img src="img/Viktar_Martinovicz_minkult.jpg" alt="VM" title="Віктар Марціновіч">
                         <figcaption>Фота Кася Сырамалот</figcaption>
@@ -175,18 +174,33 @@
         <small><a href="https://www.instagram.com/chkalava/" title="Make tea not war">Андрэй Пакроўскі</a> <i class="fas fa-crow"></i></small>
     </div>
 
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/materialize.js"></script>
-    <script>
-          $(document).ready(function(){
-            $('.collapsible.popout').collapsible();
-            $('.dropdown-trigger').dropdown({
-                constrainWidth:false
-            });
-        });
-    </script>
-    <script src="js/dropdw.js"></script>
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red center">
+            <img src="img/fist.svg">
+        </a>
+        <ul>
+          <li><a class="btn-floating" href="mailto:mimikriabel@gmail.com"><i class="far fa-envelope"></i></a></li>
+          <li><a class="btn-floating" href="https://www.facebook.com/minkulture/"><i class="fab fa-facebook-f"></i></a></li>
+        </ul>
+</div>
 
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+
+<script>
+      $(document).ready(function(){
+        $('.collapsible.popout').collapsible();
+        $('.dropdown-trigger').dropdown({
+            constrainWidth:false
+        });
+        $('.fixed-action-btn').floatingActionButton({
+          direction: 'top'
+        });
+    });
+</script>
+
+<script src="js/dropdw.js">
+</script>
 
     
     </body>
