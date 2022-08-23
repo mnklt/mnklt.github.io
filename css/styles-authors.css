@@ -104,8 +104,14 @@
     display: block;
     word-wrap: break-word;
     letter-spacing: 1px;
+    max-width: 75ch;
     
 }
+
+::selection {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.99);
+  }
 
 .text ol li {
     font-family:'Lora', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -394,4 +400,43 @@
     -webkit-transition:1s;
     -o-transition:1s;
     transition:1s;
+}
+
+.pill {
+    display: inline-block;
+    padding: 0.3rem 0.4rem;
+    border-radius: 0.5rem;
+    border: 2px solid #1c2334;
+    background: #f3eee4;
+    color: #1c2334;
+    font-weight: 700;
+    font-size: clamp(.88rem,.83rem + .24vw,1rem);
+    line-height: 1;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.read-more .pill:hover {
+    background: #1c2334;
+}
+
+.pill:hover a {
+    color: #f3eee4;
+}
+
+.cluster {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 45rem;
+    margin: 0 auto;
+    gap: 0.3rem;
+    margin-bottom:1rem;
+}
+
+.read-more {
+    background-color:hsl(9, 100%, 64%);
+    margin-bottom: 0;
 }
